@@ -11,7 +11,7 @@ import java.net.Socket;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
-public class HelloRunnable implements Runnable {
+public class Listener implements Runnable {
 
 	public void run() {
 		System.out.println("Starting listen thread..");

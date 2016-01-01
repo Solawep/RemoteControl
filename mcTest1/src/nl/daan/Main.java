@@ -36,7 +36,7 @@ public class Main extends JavaPlugin {
 		logger.info(pdffile.getName() + " Has been disabled (V." + pdffile.getVersion() + ")");
 	}
 	public void open() throws IOException {
-		(new Thread(new HelloRunnable())).start();
+		(new Thread(new Listener())).start();
 	}
 	
 	public void registerCommands() {

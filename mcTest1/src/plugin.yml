@@ -1,6 +1,3 @@
 main: nl.daan.Main
 name: SolawepFastTravel
 version: 1.0
-commands:
-  ft:
-    description: /ft help for more info.
